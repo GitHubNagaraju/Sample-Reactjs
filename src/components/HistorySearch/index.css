@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3367d6;
+  height: 20%;
+  padding: 16px;
+  margin-bottom: 40px;
+}
+
+.heading {
+  height: 40px;
+  width: 120px;
+  margin-left: 20px;
+}
+.search-input-container {
+  display: flex;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-right: 90px;
+}
+.search-container {
+  background-color: #ffffff80;
+  border-radius: 4px;
+  height: 50px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  color: white;
+}
+.search-input {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: #ffffff80;
+  border-radius: 4px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 5px;
+  width: 500px;
+  padding-left: 10px;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+.destinations-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  margin-top: 48px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.history-container {
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px #bfbfbfbf;
+  border: 10px;
+  width: 90%;
+}
